@@ -22,6 +22,7 @@
 		276768131890603600594FFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 276768111890603600594FFF /* InfoPlist.strings */; };
 		276768151890603600594FFF /* ZaHunterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 276768141890603600594FFF /* ZaHunterTests.m */; };
 		2767681F1890634000594FFF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2767681E1890634000594FFF /* MapKit.framework */; };
+		D12C989C189148D90094D0DB /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D12C989B189148D90094D0DB /* MapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		276768121890603600594FFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		276768141890603600594FFF /* ZaHunterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZaHunterTests.m; sourceTree = "<group>"; };
 		2767681E1890634000594FFF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D12C989A189148D90094D0DB /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		D12C989B189148D90094D0DB /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				276767F81890603600594FFF /* AppDelegate.h */,
 				276767F91890603600594FFF /* AppDelegate.m */,
 				276767FB1890603600594FFF /* Main.storyboard */,
+				D12C989A189148D90094D0DB /* MapViewController.h */,
+				D12C989B189148D90094D0DB /* MapViewController.m */,
 				276767FE1890603600594FFF /* ViewController.h */,
 				276767FF1890603600594FFF /* ViewController.m */,
 				276768011890603600594FFF /* Images.xcassets */,
@@ -256,6 +261,7 @@
 				276768001890603600594FFF /* ViewController.m in Sources */,
 				276767FA1890603600594FFF /* AppDelegate.m in Sources */,
 				276767F61890603600594FFF /* main.m in Sources */,
+				D12C989C189148D90094D0DB /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +470,7 @@
 				2767681A1890603600594FFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2767681B1890603600594FFF /* Build configuration list for PBXNativeTarget "ZaHunterTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +479,7 @@
 				2767681D1890603600594FFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
